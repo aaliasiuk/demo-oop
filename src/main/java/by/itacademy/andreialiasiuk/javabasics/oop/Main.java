@@ -2,20 +2,27 @@ package by.itacademy.andreialiasiuk.javabasics.oop;
 
 public class Main {
     public static void main(String[] args) {
-        House house1 = new House();
-        house1.door.manufacturer = "ZOV";
-        house1.door.color = "White";
-        house1.door.material = "Solid wood";
-        house1.door.price = 150;
-        house1.door.type = "Interior";
-        house1.door.quantity = 10;
+        Window window = new Window();
+        window.color = "Black";
+        window.manufacturer = "Terazit";
+        window.material = "Vinyl";
+        window.price = 175;
+        window.shape = "Rectangular";
+        window.quantity = 25;
 
-        house1.window.color = "Black";
-        house1.window.manufacturer = "Terazit";
-        house1.window.material = "Vinyl";
-        house1.window.price = 175;
-        house1.window.shape = "Rectangular";
-        house1.window.quantity = 25;
+        Door door = new Door();
+        door.manufacturer = "ZOV";
+        door.color = "White";
+        door.material = "Solid wood";
+        door.price = 150;
+        door.type = "Interior";
+        door.quantity = 10;
+
+
+        House house = new House();
+        house.setWindow(window);
+        house.setDoor(door);
+
     }
 
 }

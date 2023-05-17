@@ -5,5 +5,6 @@ public class ItemDetails {
     String color;
     String manufacturer;
     int price;
+    int quantity;
 
 }

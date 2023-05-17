@@ -8,12 +8,14 @@ public class Main {
         house1.door.material = "Solid wood";
         house1.door.price = 150;
         house1.door.type = "Interior";
+        house1.door.quantity = 10;
 
         house1.window.color = "Black";
         house1.window.manufacturer = "Terazit";
         house1.window.material = "Vinyl";
         house1.window.price = 175;
         house1.window.shape = "Rectangular";
+        house1.window.quantity = 25;
     }
 
 }
